@@ -129,13 +129,13 @@ The application includes secure authentication, personalized profiles, a social 
 ### 🔐 Login & Authentication
 
 <p align="center">
-  <img src="./assets/login.png" alt="PingUp Login" width="900">
+  <img src="./assets/login.png" alt="PingUp Login & Authentication" width="900">
 </p>
 
 ### 🏠 Feed & Dashboard
 
 <p align="center">
-  <img src="./assets/dashboard.png" alt="PingUp Feed and Dashboard" width="900">
+  <img src="./assets/dashboard.png" alt="PingUp Dashboard" width="900">
 </p>
 
 ### 👤 User Profile
