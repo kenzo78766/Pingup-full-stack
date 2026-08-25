@@ -1,248 +1,318 @@
-# 🌐 PingUp --- Full-Stack Social Media Platform
+# 🌐 PingUp — Full-Stack Social Media Platform
 
-> A modern full-stack social media platform featuring real-time
-> messaging, user connections, stories, posts, notifications, and
-> cloud-based media management.
+> A modern full-stack social media platform built for meaningful connections, real-time communication, content sharing, and a smooth social experience.
 
-```{=html}
 <p align="center">
-```
-`<a href="https://pingup-client-ashy-xi.vercel.app/">`{=html}`<img src="https://img.shields.io/badge/🚀%20LIVE%20DEMO-00C853?style=for-the-badge" />`{=html}`</a>`{=html}
-`<a href="https://github.com/kenzo78766/Pingup-full-stack">`{=html}`<img src="https://img.shields.io/badge/💻%20SOURCE%20CODE-181717?style=for-the-badge&logo=github" />`{=html}`</a>`{=html}
-```{=html}
+  <a href="https://pingup-client-ashy-xi.vercel.app/">
+    <img src="https://img.shields.io/badge/🚀%20LIVE%20DEMO-PingUp-5B3DF5?style=for-the-badge" alt="Live Demo">
+  </a>
+  <a href="https://github.com/kenzo78766/Pingup-full-stack">
+    <img src="https://img.shields.io/badge/💻%20SOURCE%20CODE-GitHub-181717?style=for-the-badge&logo=github" alt="Source Code">
+  </a>
+  <a href="https://www.linkedin.com/in/anshuman78766/">
+    <img src="https://img.shields.io/badge/LinkedIn-Anshuman%20Singh-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+  </a>
 </p>
-```
 
-------------------------------------------------------------------------
+---
 
-## ✨ Features
+## ✨ Overview
 
--   🔐 **Authentication & Account Management** --- Secure authentication
-    with Clerk, profile management, persistent sessions, and
-    multi-account switching.
--   📰 **Social Feed** --- Create posts with multiple images, view
-    connected users' content, like posts, and manage published content.
--   👥 **Connections & User Discovery** --- Search users by name,
-    username, bio, and location, send connection requests, and manage
-    connections.
--   💬 **Real-Time Messaging** --- Chat between users in real time with
-    unread-message tracking and notification support.
--   📖 **Stories** --- Create and view temporary stories with automatic
-    expiration after 24 hours.
--   🔔 **Background Notifications** --- Inngest-powered workflows for
-    connection-request reminders, unseen-message notifications, and
-    scheduled tasks.
--   🖼️ **Cloud Media Management** --- ImageKit integration for profile
-    pictures, post images, and story media.
--   👤 **Profile Management** --- Edit profiles, manage account
-    information, and view posts, connections, media, and profile
-    activity.
+**PingUp** is a full-stack social media application that combines social networking, content sharing, connections, notifications, and real-time messaging into one platform.
 
-------------------------------------------------------------------------
+The application includes secure authentication, personalized profiles, a social feed, stories, post creation, connection management, discovery/search, and real-time one-to-one messaging.
 
-## 📸 Project Preview
+---
 
-### 🏠 Feed & Home
+## 🚀 Live Demo
 
-![PingUp Feed](screenshots/feed.png)
+🔗 **Live Application:** https://pingup-client-ashy-xi.vercel.app/
 
-### 👤 Profile
+🔗 **GitHub Repository:** https://github.com/kenzo78766/Pingup-full-stack
 
-![PingUp Profile](screenshots/profile.png)
+🔗 **LinkedIn:** https://www.linkedin.com/in/anshuman78766/
 
-### 💬 Real-Time Messaging
+---
 
-![PingUp Messaging](screenshots/messages.png)
+## 🎯 Key Features
 
-### 👥 Connections
+### 🔐 Authentication & Account Management
+- Secure user authentication and sign-in flow powered by **Clerk**.
+- User account management with profile information and session handling.
+- Support for managing multiple accounts and switching between accounts.
 
-![PingUp Connections](screenshots/connections.png)
+### 🏠 Feed & Social Posts
+- Personalized social feed for viewing posts from connected users.
+- Create and publish posts with text content and multiple images.
+- View post engagement including likes, comments, and shares.
+- Delete and manage created posts.
+- Hashtag support for posts.
 
 ### 📖 Stories
+- Create and view user stories from the feed.
+- Story content is designed around temporary social updates.
+- Automated story deletion is handled using **Inngest** workflows.
 
-![PingUp Stories](screenshots/stories.png)
+### 👤 Profiles
+- Dedicated user profile pages with:
+  - Profile picture
+  - Cover image
+  - Bio
+  - Location
+  - Posts
+  - Followers
+  - Following
+  - Media
+  - Likes
+- Edit profile information directly from the application.
+- View another user's profile and social activity.
 
-### 📝 Create Post
+### 🤝 Connections
+- Discover other users and send connection requests.
+- Accept or manage incoming connection requests.
+- Connection status is reflected throughout the application.
+- Automated email reminders are triggered for pending connection requests.
 
-![PingUp Create Post](screenshots/create-post.png)
+### 🔎 Discover & Search
+- Search and discover users using information such as:
+  - Name
+  - Username
+  - Bio
+  - Location
+- Browse users and connect with people across the platform.
 
-------------------------------------------------------------------------
+### 💬 Real-Time Messaging
+- Real-time one-to-one chat between different user accounts.
+- Send and receive messages without manually refreshing the page.
+- Conversation interface for managing ongoing chats.
+- Recent/unseen message information is surfaced through notifications.
+
+### 🔔 Notifications & Automated Workflows
+- Unseen-message notification system.
+- Automated email notifications for connection requests.
+- Scheduled background workflows using **Inngest**.
+- Reminder workflows can check pending connection requests after a defined period.
+
+### 🖼️ Media Management
+- Support for image-based posts, profiles, and stories.
+- Cloud-based media handling for uploaded content.
+
+---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Tailwind
-CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+- **React.js**
+- **Vite**
+- **Tailwind CSS**
+- **Clerk**
 
 ### Backend
+- **Node.js**
+- **Express.js**
+- **MongoDB**
+- **Mongoose**
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+### Real-Time & Background Processing
+- **Inngest** — event-driven background jobs, scheduled workflows, and automated tasks.
+- Real-time messaging architecture for live user-to-user communication.
 
-### Services & Cloud
+### Services & Tools
+- **Nodemailer** — transactional email notifications.
+- **Git & GitHub** — version control and source management.
+- **Vercel** — deployment and hosting.
 
-![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=for-the-badge)
-![ImageKit](https://img.shields.io/badge/ImageKit-00AEEF?style=for-the-badge)
-![Inngest](https://img.shields.io/badge/Inngest-000000?style=for-the-badge)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+---
 
-------------------------------------------------------------------------
+## 📸 Application Preview
 
-## 🏗️ Application Architecture
+### 🔐 Login & Authentication
 
-``` text
-                         ┌──────────────────┐
-                         │      User        │
-                         └────────┬─────────┘
-                                  │
-                                  ▼
-                         ┌──────────────────┐
-                         │ React Frontend   │
-                         │  + Tailwind CSS  │
-                         └────────┬─────────┘
-                                  │
-                              REST API
-                                  │
-                                  ▼
-                         ┌──────────────────┐
-                         │ Node.js/Express  │
-                         │     Backend      │
-                         └────────┬─────────┘
-                                  │
-             ┌────────────────────┼────────────────────┐
-             │                    │                    │
-             ▼                    ▼                    ▼
-       ┌───────────┐       ┌───────────┐       ┌───────────┐
-       │  MongoDB  │       │   Clerk   │       │  ImageKit │
-       │   Atlas   │       │   Auth    │       │   Media   │
-       └───────────┘       └───────────┘       └───────────┘
-                                  │
-                                  ▼
-                           ┌────────────┐
-                           │  Inngest   │
-                           │ Background │
-                           │  Workflows │
-                           └────────────┘
-```
+<p align="center">
+  <img src="./assets/login.png" alt="PingUp Login" width="900">
+</p>
 
-------------------------------------------------------------------------
+### 🏠 Feed & Dashboard
 
-## 📂 Project Structure
+<p align="center">
+  <img src="./assets/dashboard.png" alt="PingUp Feed and Dashboard" width="900">
+</p>
 
-``` text
-PingUp/
+### 👤 User Profile
+
+<p align="center">
+  <img src="./assets/profile.png" alt="PingUp User Profile" width="900">
+</p>
+
+---
+
+## 🏗️ Project Structure
+
+```text
+Pingup-full-stack/
+│
 ├── client/
-│   ├── public/
 │   ├── src/
-│   │   ├── api/
-│   │   ├── app/
-│   │   ├── assets/
 │   │   ├── components/
-│   │   ├── features/
-│   │   └── pages/
+│   │   ├── pages/
+│   │   ├── assets/
+│   │   └── ...
 │   └── package.json
+│
 ├── server/
 │   ├── configs/
 │   ├── controllers/
-│   ├── inngest/
-│   ├── middlewares/
 │   ├── models/
 │   ├── routes/
-│   ├── server.js
-│   └── package.json
-├── screenshots/
+│   ├── inngest/
+│   └── ...
+│
 └── README.md
 ```
 
-------------------------------------------------------------------------
+---
 
-## ⚙️ Run Locally
+## ⚙️ Core Backend Workflows
 
-### 1. Clone Repository
+PingUp uses event-driven workflows to handle operations that should not block normal API requests.
 
-``` bash
+Examples include:
+
+- Synchronizing Clerk user creation, updates, and deletion with MongoDB.
+- Sending connection-request emails.
+- Sending reminder emails for pending connection requests.
+- Automatically deleting expired stories.
+- Sending scheduled notifications for unseen messages.
+
+---
+
+## 🔄 Application Flow
+
+```text
+User
+ │
+ ▼
+React Frontend
+ │
+ ├── Authentication ───────► Clerk
+ │
+ ├── API Requests ────────► Express / Node.js
+ │                              │
+ │                              ▼
+ │                          MongoDB
+ │
+ ├── Real-Time Chat ──────► Messaging Layer
+ │
+ └── Social Actions
+        │
+        ▼
+   Posts / Stories / Connections
+        │
+        ▼
+     Inngest
+        │
+        ├── Background Jobs
+        ├── Scheduled Tasks
+        └── Notifications / Emails
+```
+
+---
+
+## 🧩 Main Modules
+
+| Module | Description |
+|---|---|
+| Authentication | Secure sign-in and account/session management |
+| Feed | Personalized posts and social interactions |
+| Posts | Create, view, manage, and engage with posts |
+| Stories | Temporary social updates with automated expiry |
+| Profiles | User information, posts, media, and social statistics |
+| Connections | Send, receive, accept, and manage connection requests |
+| Discover | Search and discover users |
+| Messaging | Real-time one-to-one conversations |
+| Notifications | Unseen message and connection-related notifications |
+| Background Jobs | Event-driven and scheduled workflows with Inngest |
+
+---
+
+## 🚀 Running Locally
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/kenzo78766/Pingup-full-stack.git
 cd Pingup-full-stack
 ```
 
-### 2. Start Frontend
+### 2. Install frontend dependencies
 
-``` bash
+```bash
 cd client
 npm install
+```
+
+### 3. Install backend dependencies
+
+```bash
+cd ../server
+npm install
+```
+
+### 4. Configure environment variables
+
+Create the required `.env` files for the client and server and add your authentication, database, email, media, Inngest, and frontend configuration values.
+
+### 5. Start the backend
+
+```bash
+cd server
+npm run server
+```
+
+### 6. Start the frontend
+
+```bash
+cd client
 npm run dev
 ```
 
-### 3. Start Backend
+---
 
-``` bash
-cd server
-npm install
-npm start
-```
+## 🌍 Deployment
 
-------------------------------------------------------------------------
+The application is deployed using **Vercel**, with the frontend and backend configured as separate deployment targets.
 
-## 🔑 Environment Variables
+🔗 **Production Frontend:** https://pingup-client-ashy-xi.vercel.app/
 
-Create `.env` files for the frontend and backend and configure the
-required credentials for MongoDB Atlas, Clerk, ImageKit, Inngest, the
-email service, and frontend/backend URLs.
+---
 
-> ⚠️ Never commit `.env` files or secret credentials to GitHub.
-
-------------------------------------------------------------------------
-
-## 🚀 Deployment
-
-  Component         Technology
-  ----------------- ---------------
-  Frontend          Vercel
-  Backend           Vercel
-  Database          MongoDB Atlas
-  Authentication    Clerk
-  Media Storage     ImageKit
-  Background Jobs   Inngest
-  Email Service     Nodemailer
-
-------------------------------------------------------------------------
-
-## 🎯 Key Learning Outcomes
-
--   Full-stack application development using React and Node.js.
--   REST API development and integration.
--   MongoDB database design and management.
--   Authentication and user management.
--   Real-time messaging workflows.
--   Cloud-based media handling.
--   Background job and scheduled task processing.
--   Third-party service integration.
--   Production deployment and environment configuration.
-
-------------------------------------------------------------------------
-
-## 🔮 Future Improvements
-
--   Advanced content recommendation.
--   Enhanced privacy and account controls.
--   Improved real-time notification system.
--   Automated testing and CI/CD pipelines.
--   Application performance monitoring.
-
-------------------------------------------------------------------------
-
-## 👨‍💻 Author
+## 👨‍💻 Developer
 
 ### Anshuman Singh
 
-[![GitHub](https://img.shields.io/badge/GitHub-kenzo78766-181717?style=for-the-badge&logo=github)](https://github.com/kenzo78766)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Anshuman%20Singh-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/anshuman78766)
+Computer Science Student & Full-Stack Developer
 
-------------------------------------------------------------------------
+🔗 **LinkedIn:** https://www.linkedin.com/in/anshuman78766/
 
-⭐ If you found this project useful, consider giving the repository a
-star!
+🔗 **GitHub:** https://github.com/kenzo78766
+
+---
+
+## ⭐ Project Highlights
+
+- Full-stack social media architecture
+- Secure authentication and account management
+- Real-time user-to-user messaging
+- Event-driven background processing
+- Scheduled notifications and automated workflows
+- Social connections and discovery
+- Stories and multi-image posts
+- Profile and account management
+- Production deployment with Vercel
+- Responsive, modern social-media-style interface
+
+---
+
+<p align="center">
+  <b>PingUp — More than just friends, truly connect.</b>
+</p>
