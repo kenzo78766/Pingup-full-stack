@@ -129,22 +129,26 @@ The application includes secure authentication, personalized profiles, a social 
 ### 🔐 Login & Authentication
 
 <p align="center">
-  <img src="./assets/login.png" alt="PingUp Login & Authentication" width="900">
+  <a href="https://drive.google.com/file/d/1CMsOTqp5d0j2R144n7EH6tUT3GKbs8z7/view?usp=sharing">
+    <img src="https://drive.google.com/uc?export=view&id=1CMsOTqp5d0j2R144n7EH6tUT3GKbs8z7" alt="PingUp Login & Authentication" width="900">
+  </a>
 </p>
 
 ### 🏠 Feed & Dashboard
 
 <p align="center">
-  <img src="./assets/dashboard.png" alt="PingUp Dashboard" width="900">
+  <a href="https://drive.google.com/file/d/16G_Ula2wZtGIERojXNf54ruHgculHkqy/view?usp=sharing">
+    <img src="https://drive.google.com/uc?export=view&id=16G_Ula2wZtGIERojXNf54ruHgculHkqy" alt="PingUp Dashboard" width="900">
+  </a>
 </p>
 
 ### 👤 User Profile
 
 <p align="center">
-  <img src="./assets/profile.png" alt="PingUp User Profile" width="900">
+  <a href="https://drive.google.com/file/d/1QmZqxxHOz-sJUSwI6NcwbnfqGYYfSfdH/view?usp=sharing">
+    <img src="https://drive.google.com/uc?export=view&id=1QmZqxxHOz-sJUSwI6NcwbnfqGYYfSfdH" alt="PingUp User Profile" width="900">
+  </a>
 </p>
-
----
 
 ## 🏗️ Project Structure
 
